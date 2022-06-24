@@ -1,11 +1,14 @@
 /*  Basic Styling but it will help you  */
+
 body{
     background-color: silver;
+    color: rgb(8, 15, 21);
 }
 
 h1,h2{
     text-align: center;
 }
+
 
 h1{
     transition: 0s;
@@ -24,8 +27,9 @@ ul{
 }
 
 
-.card{
-     background-color:rgb(221, 170, 170);
+.card1{
+     background-color:rgb(115, 175, 84);
+     color: azure;
      width: calc(76%/3);
     margin: 2%;
     padding: 2%;
@@ -34,7 +38,82 @@ ul{
 
 }
 
-.card:hover{
+.card2{
+    background-color:rgb(56, 11, 129);
+    color: azure;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+
+.card3{
+    background-color:rgb(145, 23, 90);
+    color: azure;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+
+.card4{
+    background-color:rgb(238, 181, 24);
+    color: azure;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+
+.card5{
+    background-color:rgb(18, 46, 226);
+    color: azure;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+
+.card6{
+    background-color:rgb(59, 4, 13);
+    color: azure;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+
+}
+
+.card1:hover{
+    transform:scale(1.1);
+} 
+
+.card2:hover{
+    transform:scale(1.1);
+} 
+
+.card3:hover{
+    transform:scale(1.1);
+} 
+
+.card4:hover{
+    transform:scale(1.1);
+} 
+
+.card5:hover{
+    transform:scale(1.1);
+} 
+
+.card6:hover{
     transform:scale(1.1);
 } 
 

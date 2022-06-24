@@ -28,42 +28,42 @@ const Covid = () => {
       <h2>COVID-19 CORONAVIRUS TRACKER</h2>
 
       <ul>
-        <li className="card">
+        <li className="card1">
             <div className='card__main'></div>
                  <div className='card__inner'></div>
                       <p className='card__name'><span> GIVEN </span> COUNTRY</p>
                       <p className='card__total card__small'>INDIA</p>
 
         </li>
-        <li className="card">
+        <li className="card2">
             <div className='card__main'></div>
                  <div className='card__inner'></div>
                       <p className='card__name'><span> TOTAL </span> RECOVERED</p>
                       <p className='card__total card__small'>{data.recovered}</p>
 
         </li>
-        <li className="card">
+        <li className="card3">
             <div className='card__main'></div>
                  <div className='card__inner'></div>
                       <p className='card__name'><span> TOTAL </span> CONFIRMED</p>
                       <p className='card__total card__small'>{data.confirmed}</p>
 
         </li>
-        <li className="card">
+        <li className="card4">
             <div className='card__main'></div>
                  <div className='card__inner'></div>
                       <p className='card__name'><span> TOTAL </span> DEATHS</p>
                       <p className='card__total card__small'>{data.deaths}</p>
 
         </li>
-        <li className="card">
+        <li className="card5">
             <div className='card__main'></div>
                  <div className='card__inner'></div>
                       <p className='card__name'><span> TOTAL </span> ACTIVE</p>
                       <p className='card__total card__small'>{data.active}</p>
 
         </li>
-        <li className="card">
+        <li className="card6">
             <div className='card__main'></div>
                  <div className='card__inner'></div>
                       <p className='card__name'><span> LAST </span> UPDATED</p>
